@@ -6,72 +6,18 @@
     <description>Recent content in Blogs on 宝剑锋从磨砺出，梅花香自苦寒来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 23:32:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 23:43:32 +0800</lastBuildDate>
     
 	<atom:link href="https://soren-ding.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test6</title>
-      <link>https://soren-ding.github.io/blog/test6/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:25 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test5</title>
-      <link>https://soren-ding.github.io/blog/test5/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:23 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test4</title>
-      <link>https://soren-ding.github.io/blog/test4/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:21 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test3</title>
-      <link>https://soren-ding.github.io/blog/test3/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:18 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://soren-ding.github.io/blog/test2/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:16 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>数据结构笔记</title>
-      <link>https://soren-ding.github.io/blog/test1/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:13 +0800</pubDate>
+      <link>https://soren-ding.github.io/blog/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 03 Feb 2021 23:43:32 +0800</pubDate>
       
-      <guid>https://soren-ding.github.io/blog/test1/</guid>
+      <guid>https://soren-ding.github.io/blog/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%94%E8%AE%B0/</guid>
       <description>//线索二叉树结构体定义 typedef struct ThreadNode{ int data; struct ThreadNode *l_child, r_child; int r_tag,l_tag; }ThreadNode, *ThreadTree; //中序线索化 void inThread(ThreadTree T, ThreadNode *&amp;amp;pre){ if(T!=null){ inThread(T-&amp;gt;lchild); if(T-&amp;gt;l_child == null){ T-&amp;gt;l_child = pre; T-&amp;gt;l_tag = 1; } if(pre!=null&amp;amp;&amp;amp;pre-&amp;gt;r_child == null){ pre-&amp;gt;r_child = T; pre-&amp;gt;r_tag = 1; } pre = T; inThread(T-&amp;gt;r_child); } } //线索化二叉树 void CreateThreadTree(ThreadTree root){ ThreadNode *pre = null; if(root!=null){ inThread(root, pre); if(pre-&amp;gt;r_child == null) pre-&amp;gt;r_tag = 1; } } 线序线索化要注意遍历时是先访问根节点再访问左右孩子，所以线索化时注意遍历左子树时进行Tag判断，防止出现指针回指，导致“爱的魔力转圈圈”。</description>
-    </item>
-    
-    <item>
-      <title>新的开始</title>
-      <link>https://soren-ding.github.io/blog/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</link>
-      <pubDate>Wed, 03 Feb 2021 23:32:04 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</guid>
-      <description></description>
     </item>
     
   </channel>
