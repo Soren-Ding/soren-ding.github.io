@@ -57,12 +57,12 @@
     </item>
     
     <item>
-      <title>Test1</title>
+      <title>数据结构笔记</title>
       <link>https://soren-ding.github.io/blog/test1/</link>
       <pubDate>Wed, 03 Feb 2021 23:32:13 +0800</pubDate>
       
       <guid>https://soren-ding.github.io/blog/test1/</guid>
-      <description></description>
+      <description>//线索二叉树结构体定义 typedef struct ThreadNode{ int data; struct ThreadNode *l_child, r_child; int r_tag,l_tag; }ThreadNode, *ThreadTree; //中序线索化 void inThread(ThreadTree T, ThreadNode *&amp;amp;pre){ if(T!=null){ inThread(T-&amp;gt;lchild); if(T-&amp;gt;l_child == null){ T-&amp;gt;l_child = pre; T-&amp;gt;l_tag = 1; } if(pre!=null&amp;amp;&amp;amp;pre-&amp;gt;r_child == null){ pre-&amp;gt;r_child = T; pre-&amp;gt;r_tag = 1; } pre = T; inThread(T-&amp;gt;r_child); } } //线索化二叉树 void CreateThreadTree(ThreadTree root){ ThreadNode *pre = null; if(root!=null){ inThread(root, pre); if(pre-&amp;gt;r_child == null) pre-&amp;gt;r_tag = 1; } } 线序线索化要注意遍历时是先访问根节点再访问左右孩子，所以线索化时注意遍历左子树时进行Tag判断，防止出现指针回指，导致“爱的魔力转圈圈”。</description>
     </item>
     
     <item>

@@ -40,7 +40,9 @@
                             
                                 
                                     
-                                        <li><a href="https://soren-ding.github.io/blog/test1/">Test1</a></li>
+                                        <li>
+                                            <a href="#5pww5o2u57ut5p6e56yu6k6w">数据结构笔记</a>
+                                        </li>
                                     
                                 
                             
@@ -103,6 +105,45 @@
                         
                     
                         
+                            
+                                <article id="5pww5o2u57ut5p6e56yu6k6w">
+                                    <h2 class="major">数据结构笔记</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">//线索二叉树结构体定义
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">ThreadNode</span>{
+    <span style="color:#66d9ef">int</span> data;
+    <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">ThreadNode</span> <span style="color:#f92672">*</span>l_child, r_child;
+    <span style="color:#66d9ef">int</span> r_tag,l_tag;
+}ThreadNode, <span style="color:#f92672">*</span>ThreadTree;
+
+<span style="color:#75715e">//中序线索化
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">inThread</span>(ThreadTree T, ThreadNode <span style="color:#f92672">*&amp;</span>pre){
+    <span style="color:#66d9ef">if</span>(T<span style="color:#f92672">!=</span>null){
+        inThread(T<span style="color:#f92672">-&gt;</span>lchild);
+        <span style="color:#66d9ef">if</span>(T<span style="color:#f92672">-&gt;</span>l_child <span style="color:#f92672">==</span> null){
+            T<span style="color:#f92672">-&gt;</span>l_child <span style="color:#f92672">=</span> pre;
+            T<span style="color:#f92672">-&gt;</span>l_tag <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+        }
+        <span style="color:#66d9ef">if</span>(pre<span style="color:#f92672">!=</span>null<span style="color:#f92672">&amp;&amp;</span>pre<span style="color:#f92672">-&gt;</span>r_child <span style="color:#f92672">==</span> null){
+            pre<span style="color:#f92672">-&gt;</span>r_child <span style="color:#f92672">=</span> T;
+            pre<span style="color:#f92672">-&gt;</span>r_tag <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+        }
+        pre <span style="color:#f92672">=</span> T;
+        inThread(T<span style="color:#f92672">-&gt;</span>r_child);
+    }
+}
+<span style="color:#75715e">//线索化二叉树
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">CreateThreadTree</span>(ThreadTree root){
+    ThreadNode <span style="color:#f92672">*</span>pre <span style="color:#f92672">=</span> null;
+    <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">!=</span>null){
+        inThread(root, pre);
+        <span style="color:#66d9ef">if</span>(pre<span style="color:#f92672">-&gt;</span>r_child <span style="color:#f92672">==</span> null)
+            pre<span style="color:#f92672">-&gt;</span>r_tag <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+    }
+}
+</code></pre></div><p>线序线索化要注意遍历时是先访问根节点再访问左右孩子，所以线索化时注意遍历左子树时进行Tag判断，防止出现指针回指，导致“爱的魔力转圈圈”。</p>
+
+                                </article>
                             
                         
                     
