@@ -6,33 +6,15 @@
     <description>Recent content on 宝剑锋从磨砺出，梅花香自苦寒来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 22:31:15 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 23:18:09 +0800</lastBuildDate>
     
 	<atom:link href="https://soren-ding.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>https://soren-ding.github.io/about/about/</link>
-      <pubDate>Wed, 03 Feb 2021 22:31:15 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/about/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Begin</title>
-      <link>https://soren-ding.github.io/blog/begin/</link>
-      <pubDate>Wed, 03 Feb 2021 22:18:09 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/begin/</guid>
-      <description>换新主题了，每天都会更强！！！ </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>C语言面试</title>
       <link>https://soren-ding.github.io/blog/c%E8%AF%AD%E8%A8%80%E9%9D%A2%E8%AF%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Feb 2021 23:18:09 +0800</pubDate>
       
       <guid>https://soren-ding.github.io/blog/c%E8%AF%AD%E8%A8%80%E9%9D%A2%E8%AF%95/</guid>
       <description>C语言面试：
@@ -86,6 +68,24 @@
 43、单链表节点删除(删除指定节点)
 代码评价、找错： 1、整数自动转换原则，无符号优先级比有符号优先级高
 void fun(void){unsigned int a = 6;int b = -20;(a+b&amp;gt;6)? puts(&amp;#34;&amp;gt;6&amp;#34;):puts(&amp;#34;&amp;lt;=6&amp;#34;);}2、对于不同的计算机架构，int的位数是不同的，有16/32位，使用按位取反来获取相应位数的“1”</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://soren-ding.github.io/about/about/</link>
+      <pubDate>Wed, 03 Feb 2021 22:31:15 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/about/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Begin</title>
+      <link>https://soren-ding.github.io/blog/begin/</link>
+      <pubDate>Wed, 03 Feb 2021 22:18:09 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/begin/</guid>
+      <description>换新主题了，每天都会更强！！！ </description>
     </item>
     
     <item>
