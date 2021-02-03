@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on 宝剑锋从磨砺出，梅花香自苦寒来</title>
+    <link>https://soren-ding.github.io/about/</link>
+    <description>Recent content in Abouts on 宝剑锋从磨砺出，梅花香自苦寒来</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Feb 2021 22:31:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://soren-ding.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://soren-ding.github.io/about/about/</link>
+      <pubDate>Wed, 03 Feb 2021 22:31:15 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/about/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
