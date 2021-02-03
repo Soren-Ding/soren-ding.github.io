@@ -6,68 +6,72 @@
     <description>Recent content on 宝剑锋从磨砺出，梅花香自苦寒来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 23:18:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 23:32:25 +0800</lastBuildDate>
     
 	<atom:link href="https://soren-ding.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>C语言面试</title>
-      <link>https://soren-ding.github.io/blog/c%E8%AF%AD%E8%A8%80%E9%9D%A2%E8%AF%95/</link>
-      <pubDate>Wed, 03 Feb 2021 23:18:09 +0800</pubDate>
+      <title>Test6</title>
+      <link>https://soren-ding.github.io/blog/test6/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:25 +0800</pubDate>
       
-      <guid>https://soren-ding.github.io/blog/c%E8%AF%AD%E8%A8%80%E9%9D%A2%E8%AF%95/</guid>
-      <description>C语言面试：
-基础： 1、关键字static的作用？（函数体内，函数体外模块内，模块内静态函数）
-答：作用域问题
-2、“引用”和指针的区别？
-答：指针是一个变量，只不过这个变量存储的是一个地址，指向内存的一个存储单元；而引用跟原来
-的变量实质上是同一个东西，只不过是原变量的一个别名而已。
-3、如何判断头文件重复引用？
-答：
-4、#include &amp;lt;&amp;gt;和&amp;quot;&amp;ldquo;的区别
-答：&amp;lt;&amp;gt;标准库，&amp;rdquo;&amp;rdquo;
-5、实时系统的基本特征
-6、全局变量和局部变量在内存中的区别？
-7、什么是平衡二叉树？
-8、堆栈溢出一般由什么原因导致？
-9、冒泡排序的O(n)
-10、什么函数不能声明为虚函数？
-11、队列和栈的区别？
-12、不能做switch()的参数类型？
-13、局部变量能否和全局变量重名？
-14、如何引用一个已经定义过的全局变量？
-15、全局变量可不可以定义在可被多个.c文件包含的头文件中？为什么？
-16、语句for( ; 1 ;)有什么问题？他是什么思想？
-17、do&amp;hellip;while和while&amp;hellip;do的区别？
-18、static全局变量、局部变量、函数和普通全局变量、局部变量、函数？
-19、程序的内存分配？
-20、堆和栈的区别？
-21、什么是预编译？什么时候要预编译？
-22、关键字const的含义？
-23、关键字volatile有什么含义？举例子？
-24、三种基本数据模型？
-25、结构和联合有什么区别？
-26、描述内存分配方式以及他们的区别？
-27、请说出const和#define相比，有何优点？
-28、简述数组和指针的区别？
-29、分别写出bool、int、float、指针类型的变量a与“零”的比较语句？
-30、如何判断一段程序是由C编译还是由C++编译？
-31、论述含参数的宏与函数的优缺点？
-32、用两个栈来实现一个队列的功能？给出算法和思路？
-33、死循环的几种书写方式？（while\for\goto）
-34、位操作，给定一个整形变量a，第一个设置a的bit3第二个清除a的bit3，在以上的两个操作中保持其他位不变？
-35、访问固定的内存位置？
-36、中断？
-37、在嵌入式系统中，动态内存分配可能发生什么问题？关于malloc(0)的问题？free()?
-38、typedef和#define定义结构体的区别，选取？
-39、数组指针、指针数组、指针函数？
-40、局部变量、全局变量、静态变量的含义？
-41、写一个“标准”宏？
-42、A.c和B.c两个C文件中使用了两个名称相同的static变量，编译的时候会不会有问题？这两个static变量会保存到哪里(栈还是堆或者其他的)？
-43、单链表节点删除(删除指定节点)
-代码评价、找错： 1、整数自动转换原则，无符号优先级比有符号优先级高
-void fun(void){unsigned int a = 6;int b = -20;(a+b&amp;gt;6)? puts(&amp;#34;&amp;gt;6&amp;#34;):puts(&amp;#34;&amp;lt;=6&amp;#34;);}2、对于不同的计算机架构，int的位数是不同的，有16/32位，使用按位取反来获取相应位数的“1”</description>
+      <guid>https://soren-ding.github.io/blog/test6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test5</title>
+      <link>https://soren-ding.github.io/blog/test5/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:23 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test4</title>
+      <link>https://soren-ding.github.io/blog/test4/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:21 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test3</title>
+      <link>https://soren-ding.github.io/blog/test3/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:18 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test2</title>
+      <link>https://soren-ding.github.io/blog/test2/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:16 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test1</title>
+      <link>https://soren-ding.github.io/blog/test1/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:13 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>新的开始</title>
+      <link>https://soren-ding.github.io/blog/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</link>
+      <pubDate>Wed, 03 Feb 2021 23:32:04 +0800</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -77,69 +81,6 @@ void fun(void){unsigned int a = 6;int b = -20;(a+b&amp;gt;6)? puts(&amp;#34;&
       
       <guid>https://soren-ding.github.io/about/about/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Begin</title>
-      <link>https://soren-ding.github.io/blog/begin/</link>
-      <pubDate>Wed, 03 Feb 2021 22:18:09 +0800</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/begin/</guid>
-      <description>换新主题了，每天都会更强！！！ </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test1/</guid>
-      <description>test1</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test2/</guid>
-      <description>test2</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test3/</guid>
-      <description>test3</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test4/</guid>
-      <description>test4</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test5/</guid>
-      <description>test5</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soren-ding.github.io/blog/test6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soren-ding.github.io/blog/test6/</guid>
-      <description>test6</description>
     </item>
     
   </channel>
