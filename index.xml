@@ -88,5 +88,59 @@
 void fun(void){unsigned int a = 6;int b = -20;(a+b&amp;gt;6)? puts(&amp;#34;&amp;gt;6&amp;#34;):puts(&amp;#34;&amp;lt;=6&amp;#34;);}2、对于不同的计算机架构，int的位数是不同的，有16/32位，使用按位取反来获取相应位数的“1”</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test1/</guid>
+      <description>test1</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test2/</guid>
+      <description>test2</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test3/</guid>
+      <description>test3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test4/</guid>
+      <description>test4</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test5/</guid>
+      <description>test5</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://soren-ding.github.io/blog/test6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soren-ding.github.io/blog/test6/</guid>
+      <description>test6</description>
+    </item>
+    
   </channel>
 </rss>
